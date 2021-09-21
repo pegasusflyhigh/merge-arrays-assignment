@@ -1,7 +1,7 @@
 # merges the two sorted arrays, assuming asc order 
 
 def merge(larger_arr, smaller_arr)
-	result = []
+  result = []
 
   if larger_arr.first < smaller_arr.first
     result << larger_arr.shift
