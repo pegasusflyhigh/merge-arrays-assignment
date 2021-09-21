@@ -1,7 +1,7 @@
-require 'spec_helper.rb'
+require 'spec_helper'
 
 describe '.merge' do
-  it "returns merged array for given two sorted arrays" do
+  it 'returns merged array for given two sorted arrays' do
     a = [-4, -1, 1, 2, 4, 7, 9, 10]
     b = [-1, 0, 2, 3, 5, 8, 9]
 
